@@ -65,7 +65,7 @@
             $price = $_POST["price"];
 
             // Handle uploaded image
-            $imageDirectory = "assests/images/";
+            $imageDirectory = "../assests/images/";
             $uploadedImage = $_FILES["image"]["name"];
             $targetPath = $imageDirectory . $uploadedImage;
 

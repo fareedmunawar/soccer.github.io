@@ -19,8 +19,14 @@
     </div>
 </div>
 
-<div class="categories" style="position:relative!important;">
-    <a href="?category=all">All</a>
+<div class="categories">
+    <a href="?category=all" class="category-link category-button btn"> <!-- Add the "btn" class -->
+        <span></span> <!-- Add the required spans for animation -->
+        <span></span>
+        <span></span>
+        <span></span>
+        All
+    </a>
     <?php
     include_once('db_connect.php');
 
@@ -31,10 +37,18 @@
     if ($categoryResult->num_rows > 0) {
         while ($categoryRow = $categoryResult->fetch_assoc()) {
             $categoryName = $categoryRow["category"];
-            echo '<a href="?category=' . urlencode($categoryName) . '">' . $categoryName . '</a>';
+            echo '<a href="?category=' . urlencode($categoryName) . '" class="category-link category-button btn">';
+            echo '<span></span>';
+            echo '<span></span>';
+            echo '<span></span>';
+            echo '<span></span>';
+            echo $categoryName . '</a>';
         }
     }
     ?>
+</div>
+
+
 </div>
 
 
