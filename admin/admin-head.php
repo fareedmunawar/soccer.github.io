@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
+    header('Location: login.php'); // Redirect to the login page
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,14 +53,9 @@
                                 aria-haspopup="true" aria-expanded="false">
                                 <i class="far fa-file-alt"></i>
                                 <span>
-                                    Reports <i class="fas fa-angle-down"></i>
+                                    Contact us <i class=""></i>
                                 </span>
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Daily Report</a>
-                                <a class="dropdown-item" href="#">Weekly Report</a>
-                                <a class="dropdown-item" href="#">Yearly Report</a>
-                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="products.php">
@@ -79,27 +81,35 @@
                                 aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-cog"></i>
                                 <span>
-                                    Settings <i class="fas fa-angle-down"></i>
+                                    new admin <i class=""></i>
                                 </span>
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Profile</a>
-                                <a class="dropdown-item" href="#">Billing</a>
-                                <a class="dropdown-item" href="#">Customize</a>
-                            </div>
                         </li>
                     </ul>
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link d-block" href="login.html">
-                                Admin, <b>Logout</b>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </nav>
+                <?php if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true): ?>
+                    <li class="nav-item">
+                        <a class="nav-link d-block" href="#">
+                            Admin, <b><?php echo $_SESSION['email']; ?></b>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-block" href="logout.php">
+                            Logout
+                        </a>
+                    </li>
+                <?php else: ?>
+                    <li class="nav-item">
+                        <a class="nav-link d-block" href="login.php">
+                            Login
+                        </a>
+                    </li>
+                    
+                <?php endif; ?>
+            </ul>
+        </div>
+    </div>
+</nav>
         <div class="container">
             <div class="row">
                 <div class="col">
