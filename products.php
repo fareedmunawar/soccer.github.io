@@ -79,7 +79,7 @@
                 <img class="product-image" src="assests/images/<?php echo $productImage; ?>" alt="Product Image">
                 <h2 class="product-title"><?php echo $productName; ?></h2>
                 <p class="product-price">$<?php echo $productPrice; ?></p>
-                <button class="add-to-cart-button" onclick="openModal(<?php echo $productPrice; ?>)">Add to Cart</button>
+                <button class=" add-to-cart-button" onclick="openModal(<?php echo $productPrice; ?>)">Add to Cart</button>
                 <button class="wishlist-button"><span class="heart-icon">❤️</span> Add to Wishlist</button>
             </div>
     <?php
