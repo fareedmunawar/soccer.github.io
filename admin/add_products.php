@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
+<?php include('admin-head.php');?>
     <title>Add Product Form</title>
     <style>
         body {
@@ -102,5 +100,4 @@
             <button type="submit">Add Product</button>
         </form>
     </div>
-</body>
-</html>
+    <?php include('admin-foot.php');?>
