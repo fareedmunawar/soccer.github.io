@@ -49,8 +49,7 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                         </li>
                         <li class="nav-item dropdown">
 
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link " href="signup.php"  >
                                 <i class="far fa-file-alt"></i>
                                 <span>
                                     Contact us <i class=""></i>
@@ -71,18 +70,15 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="accounts.html">
+                            <a class="nav-link" href="#">
                                 <i class="far fa-user"></i>
-                                Accounts
+                                ...
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="signup.php" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="signup.php">
                                 <i class="fas fa-cog"></i>
-                                <span>
-                                    new admin <i class=""></i>
-                                </span>
+                                new admin
                             </a>
                         </li>
                     </ul>
