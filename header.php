@@ -79,8 +79,8 @@ if (isset($_POST["logout"])) {
     <header class="site-navbar py-4" role="banner">
     <div class="container">
         <div class="d-flex align-items-center">
-            <div class="site-logo">
-                <a href="index.php">
+            <div class="site-logo" style="margin-left: -30px;margin-right: -30px;">
+                <a href="index.php" >
                     <img src="assests/images/logo.png" alt="Logo">
                 </a>
             </div>

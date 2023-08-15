@@ -1,3 +1,4 @@
+<?php include('admin-head.php'); ?>
 <?php
 include_once('db_connect.php'); // Include your database connection file
 
@@ -29,7 +30,7 @@ if (isset($_POST['signup'])) {
 
 
 
-<?php include('admin-head.php'); ?>
+
 
 <style>
     /* Your existing styling here */

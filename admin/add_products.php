@@ -2,14 +2,14 @@
     <title>Add Product Form</title>
     <style>
         body {
-            background-color: #f2f2f2;
+            
             font-family: Arial, sans-serif;
         }
         
-        .container {
-            max-width: 400px;
+        .container-products {
+            
+            max-width: 500px;
             margin: auto;
-            background-color: #333;
             color: white;
             padding: 20px;
             border-radius: 5px;
@@ -20,10 +20,7 @@
             text-align: center;
         }
 
-        .form-group {
-            margin-bottom: 15px;
-        }
-
+       
         .form-group label {
             display: block;
             margin-bottom: 5px;
@@ -52,7 +49,7 @@
     </style>
 </head>
 <body>
-<div class="container">
+<div class="container-products">
         <h2>Add Product</h2>
         <?php
         include_once('db_connect.php');
