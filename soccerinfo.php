@@ -1,4 +1,9 @@
 <?php include('header.php'); ?>
+<style>
+  .player-img {height:700px!important; width:800px}
+  .player-title {height:600px!important; width:800px}
+  .lead{color: white!important;}
+</style>
 
 <div class="hero overlay" style="background-image: url('assests/images/bg_3.jpg');">
       <div class="container">
@@ -16,104 +21,56 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 blog-content">
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda nihil aspernatur nemo sunt, qui, harum repudiandae quisquam eaque dolore itaque quod tenetur quo quos labore?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae expedita cumque necessitatibus ducimus debitis totam, quasi praesentium eveniet tempore possimus illo esse, facilis? Corrupti possimus quae ipsa pariatur cumque, accusantium tenetur voluptatibus incidunt reprehenderit, quidem repellat sapiente, id, earum obcaecati.</p>
-            <p><img src="assests/images/img_1.jpg" alt="Image" class="img-fluid"></p>
+            <b class="lead">About Our Soccer Passion: Exploring the Beautiful Game</b>
+            <p >Welcome to our website, where we celebrate the rich history, thrilling moments, and legendary players of the world's most beloved sport: soccer, also known as football in most parts of the globe. With a passion for the game that spans generations, we aim to provide you with an immersive experience into the captivating world of soccer.</p>
+            <p><img src="assests/images/messi.jpg" alt="Image" class="img-fluid player-title" ></p>
+            <b class="lead">History of Soccer: From Past to Present</b>
+            <blockquote><p>Soccer's roots trace back to ancient civilizations, where various forms of ball games were played across cultures. The modern version of the sport, as we know it today, began to take shape in the 19th century in England. The establishment of standardized rules and the formation of the first soccer associations laid the foundation for the global phenomenon that soccer has become.</p></blockquote>
 
-            <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident vero tempora aliquam excepturi labore, ad soluta voluptate necessitatibus. Nulla error beatae, quam, facilis suscipit quaerat aperiam minima eveniet quis placeat.</p></blockquote>
+            <p>Over the years, soccer has transcended borders and cultures, uniting people from every corner of the world. The FIFA World Cup, inaugurated in 1930, stands as the pinnacle of international soccer, showcasing the skill, determination, and national pride of teams from around the world.</p>
+            <b class="lead">Legendary Players: Icons of the Game</b>
+            <p>Soccer's history is enriched by the presence of extraordinary players who have left an indelible mark on the sport. Among these legends, a few stand out:</p>
 
-            <p>Eveniet deleniti accusantium nulla natus nobis nam asperiores ipsa minima laudantium vero cumque cupiditate ipsum ratione dicta, expedita quae, officiis provident harum nisi! Esse eligendi ab molestias, quod nostrum hic saepe repudiandae non. Suscipit reiciendis tempora ut, saepe temporibus nemo.</p>
-            <p>Accusamus, temporibus, ullam. Voluptate consectetur laborum totam sunt culpa repellat, dolore voluptas. Quaerat cum ducimus aut distinctio sit, facilis corporis ab vel alias, voluptas aliquam, expedita molestias quisquam sequi eligendi nobis ea error omnis consequatur iste deleniti illum, dolorum odit.</p>
-            <p>In adipisci corporis at delectus! Cupiditate, voluptas, in architecto odit id error reprehenderit quam quibusdam excepturi distinctio dicta laborum deserunt qui labore dignissimos necessitatibus reiciendis tenetur corporis quas explicabo exercitationem suscipit. Nisi quo nulla, nihil harum obcaecati vel atque quos.</p>
-            <p><img src="assests/images/img_2.jpg" alt="Image" class="img-fluid"></p>
-            <p>Amet sint explicabo maxime accusantium qui dicta enim quia, nostrum id libero voluptates quae suscipit dolor quam tenetur dolores inventore illo laborum, corporis non ex, debitis quidem obcaecati! Praesentium maiores illo atque error! Earum, et, fugit. Sint, delectus molestiae. Totam.</p>
+            <p class="lead">1. Pelé: Often referred to as the "King of Football," Pelé is a Brazilian icon who won three World Cups (1958, 1962, 1970) and scored over 1,000 career goals. His dazzling skills, agility, and charisma made him a global sensation.</p>
+            <p><img src="assests/images/pele.jpg" alt="Image" class="img-fluid player-img" ></p>
+            <p class="lead">2. Diego Maradona: The Argentine genius is renowned for his mesmerizing dribbling and the infamous "Hand of God" goal in the 1986 World Cup. Maradona's impact on the game and his country's history is immeasurable.</p>
+            <p><img src="assests/images/maradona.jpg" alt="Image" class="img-fluid player-img" ></p>
+            <p class="lead">3. Johan Cruyff: A Dutch maestro, Cruyff introduced "Total Football" and led the Netherlands to the 1974 World Cup final. His innovative thinking both as a player and later as a coach left an indelible influence on soccer tactics.</p>
+            <p><img src="assests/images/johan.jpg" alt="Image" class="img-fluid player-img"></p>
+            <p class="lead">4. Lionel Messi: Known for his incredible dribbling skills and playmaking ability, Messi has spent the majority of his career at Barcelona, breaking records and earning multiple Ballon d'Or awards.</p>
+            <p><img src="assests/images/img_3.jpg" alt="Image" class="img-fluid player-img" ></p>
+            <p class="lead">5. Cristiano Ronaldo: A modern-day icon, Ronaldo's athleticism, versatility, and goal-scoring prowess have seen him win numerous titles with Manchester United, Real Madrid, Juventus, and the Portuguese national team.</p>
+            <p><img src="assests/images/ronaldo.jpg" alt="Image" class="img-fluid player-img " ></p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa iste, repudiandae facere aperiam sapiente, officia delectus soluta molestiae nihil corporis animi quos ratione qui labore? Sint eaque perspiciatis minus illum.</p>
-            <p>Consectetur porro odio quod iure quaerat cupiditate similique, dolor reprehenderit molestias provident, esse dolorum omnis architecto magni amet corrupti neque ratione sunt beatae perspiciatis? Iste pariatur omnis sed ut itaque.</p>
-            <p>Id similique, rem ipsam accusantium iusto dolores sit velit ex quas ea atque, molestiae. Sint, sed. Quisquam, suscipit! Quisquam quibusdam maiores fugiat eligendi eius consequuntur, molestiae saepe commodi expedita nemo!</p>
+
             <div class="pt-5">
-              <p>Categories:  <a href="#">HTML5</a>, <a href="#">Bootstrap 4</a>  Tags: <a href="#">#html</a>, <a href="#">#trends</a></p>
-            </div>
-
-
-            <div class="pt-5">
-              <h3 class="mb-5 text-white">6 Comments</h3>
+              <h3 class="mb-5 text-white"></h3>
               <ul class="comment-list">
                 <li class="comment">
                   <div class="vcard bio">
-                    <img src="assests/images/person_1.jpg" alt="Image placeholder">
+                    <img >
                   </div>
                   <div class="comment-body">
-                    <h3>Jean Doe</h3>
-                    <div class="meta">January 9, 2018 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                    <p><a href="#" class="reply">Reply</a></p>
+                    <h3></h3>
+                    <div class="meta"></div>
+                    <p></p>
+                    <p><a href="#"></a></p>
                   </div>
                 </li>
 
                 <li class="comment">
                   <div class="vcard bio">
-                    <img src="assests/images/person_1.jpg" alt="Image placeholder">
+                    <img >
                   </div>
                   <div class="comment-body">
-                    <h3>Jean Doe</h3>
-                    <div class="meta">January 9, 2018 at 2:21pm</div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                    <p><a href="#" class="reply">Reply</a></p>
+                    <h3></h3>
+                    <div class="meta"></div>
+                    <p></p>
+                    <p><a href="#"></a></p>
                   </div>
 
                   
-              <!-- END comment-list -->
-              
-              <div class="comment-form-wrap pt-5">
-                <h3 class="mb-5">Contact Us</h3>
-                <form action="#" class="p-5 bg-light">
-                  <div class="form-group">
-                    <label for="name">Name *</label>
-                    <input type="text" class="form-control" id="name">
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email *</label>
-                    <input type="email" class="form-control" id="email">
-                  </div>
-                  <div class="form-group">
-                    <label for="website">Website</label>
-                    <input type="url" class="form-control" id="website">
-                  </div>
-
-                  <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
-                  </div>
-                  <div class="form-group">
-                    <input type="submit" value="Submit" class="btn btn-primary py-3 px-4 text-white">
-                  </div>
-
-                </form>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-md-4 sidebar">
-            <div class="sidebar-box">
-              <form action="#" class="search-form">
-                <div class="form-group">
-                  <span class="icon fa fa-search"></span>
-                  </div>
-              </form>
-            </div>
             
-            <div class="sidebar-box">
-              <img src="assests/images/person_1.jpg" alt="Image placeholder" class="img-fluid mb-4">
-              <h3 class="text-uppercase">About The Author</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
-              <p><a href="#" class="btn btn-primary text-white">Read More</a></p>
-            </div>
-
-            <div class="sidebar-box">
-              <h3 class="text-uppercase">Paragraph</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
-            </div>
           </div>
         </div>
       </div>

@@ -1,5 +1,41 @@
 
+<div class="site-section first-section">
+      <div class="container">
+        <div class="row">
+              
+              <div class="comment-form-wrap pt-5 col-lg-12">
+                <h3 class="mb-5">Contact Us</h3>
+                <form action="#" class="p-5 bg-light">
+                  <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="website">Website</label>
+                    <input type="url" class="form-control" id="website">
+                  </div>
 
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" value="Submit" class="btn btn-primary py-3 px-4 text-white">
+                  </div>
+
+                </form>
+              </div>
+            </div>
+
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer class="footer-section">
       <div class="container">
